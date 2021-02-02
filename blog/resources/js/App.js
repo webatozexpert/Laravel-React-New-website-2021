@@ -4,6 +4,7 @@ function App() {
     return (
         <div >
             <Menu/>
+            <img src=""/>
         </div>
     );
 }

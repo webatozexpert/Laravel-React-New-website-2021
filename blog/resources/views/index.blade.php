@@ -1,22 +1,14 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
     <link rel="stylesheet" href="{{asset('css/main.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
 </head>
-<body >
-
-
+<body>
 <div id="root">
 
 </div>
-
-
-
-
-
-
-
-
 
 
 
