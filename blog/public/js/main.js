@@ -443,6 +443,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_cjs_Navbar__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_cjs_Navbar__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_bootstrap_cjs_Nav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/cjs/Nav */ "./node_modules/react-bootstrap/cjs/Nav.js");
 /* harmony import */ var react_bootstrap_cjs_Nav__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_cjs_Nav__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 
@@ -467,6 +468,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -501,14 +503,34 @@ var Menu = /*#__PURE__*/function (_Component) {
             id: "basic-navbar-nav",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((react_bootstrap_cjs_Nav__WEBPACK_IMPORTED_MODULE_3___default()), {
               className: "mr-auto",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((react_bootstrap_cjs_Nav__WEBPACK_IMPORTED_MODULE_3___default().Link), {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((react_bootstrap_cjs_Nav__WEBPACK_IMPORTED_MODULE_3___default().Link), {
                 className: "nav-font",
                 href: "#home",
-                children: "Home"
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                  to: "/",
+                  children: "Home"
+                }), " "]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((react_bootstrap_cjs_Nav__WEBPACK_IMPORTED_MODULE_3___default().Link), {
                 className: "nav-font",
                 href: "#link",
-                children: "Link"
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                  to: "/courseplan",
+                  children: "Course Plant"
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((react_bootstrap_cjs_Nav__WEBPACK_IMPORTED_MODULE_3___default().Link), {
+                className: "nav-font",
+                href: "#link",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                  to: "/registration",
+                  children: "Registration"
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((react_bootstrap_cjs_Nav__WEBPACK_IMPORTED_MODULE_3___default().Link), {
+                className: "nav-font",
+                href: "#link",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+                  to: "/freeclass",
+                  children: "Free Class"
+                })
               })]
             })
           })]
