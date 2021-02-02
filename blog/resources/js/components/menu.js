@@ -9,12 +9,12 @@ class Menu extends Component {
         return (
             <Fragment>
                 <Navbar bg="dark" variant="dark" expand="lg">
-                    <Navbar.Brand href="#home">Laravel-React</Navbar.Brand>
+                    <Navbar.Brand className="text-dark" href="#home">Laravel-React</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">Link</Nav.Link>
+                            <Nav.Link className="nav-font" href="#home">Home</Nav.Link>
+                            <Nav.Link className="nav-font" href="#link">Link</Nav.Link>
 
                         </Nav>
 

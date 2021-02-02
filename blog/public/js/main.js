@@ -410,13 +410,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/menu */ "./resources/js/components/menu.js");
+/* harmony import */ var _images_banner_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/banner.svg */ "./resources/images/banner.svg");
+
+
 
 
 
 
 function App() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_menu__WEBPACK_IMPORTED_MODULE_2__.default, {})
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_menu__WEBPACK_IMPORTED_MODULE_2__.default, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
+      src: _images_banner_svg__WEBPACK_IMPORTED_MODULE_3__.default
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
+      className: "normal-btn btn",
+      children: " Login"
+    })]
   });
 }
 
@@ -490,6 +498,7 @@ var Menu = /*#__PURE__*/function (_Component) {
           variant: "dark",
           expand: "lg",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((react_bootstrap_cjs_Navbar__WEBPACK_IMPORTED_MODULE_2___default().Brand), {
+            className: "text-dark",
             href: "#home",
             children: "Laravel-React"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((react_bootstrap_cjs_Navbar__WEBPACK_IMPORTED_MODULE_2___default().Toggle), {
@@ -499,9 +508,11 @@ var Menu = /*#__PURE__*/function (_Component) {
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((react_bootstrap_cjs_Nav__WEBPACK_IMPORTED_MODULE_3___default()), {
               className: "mr-auto",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((react_bootstrap_cjs_Nav__WEBPACK_IMPORTED_MODULE_3___default().Link), {
+                className: "nav-font",
                 href: "#home",
                 children: "Home"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((react_bootstrap_cjs_Nav__WEBPACK_IMPORTED_MODULE_3___default().Link), {
+                className: "nav-font",
                 href: "#link",
                 children: "Link"
               })]
@@ -1155,6 +1166,21 @@ function transitionEnd(element, handler, duration, padding) {
     remove();
   };
 }
+
+/***/ }),
+
+/***/ "./resources/images/banner.svg":
+/*!*************************************!*\
+  !*** ./resources/images/banner.svg ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/banner.svg?1eed7d7d91a2fc01f613e5a8ea2c1de4");
 
 /***/ }),
 
