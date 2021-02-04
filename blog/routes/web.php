@@ -1,14 +1,14 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/CourseFeatures',[HomeController::class,'getCourseFeatures']);
+Route::get('/CoursePlan',[HomeController::class,'getCoursePlan']);
+Route::get('/PaymentGuide',[HomeController::class,'getPaymentGuide']);
+Route::get('/MoreSeries',[HomeController::class,'getMoreSeries']);
+Route::get('/FreeClass',[HomeController::class,'getFreeClass']);
 
-
-Route::get('/getCourseFeatures','HomeController@getCourseFeatures');
-Route::get('/getCoursePlan','HomeController@getCoursePlan');
-Route::get('/getPaymentGuide','HomeController@getPaymentGuide');
-Route::get('/getMoreSeries','HomeController@getMoreSeries');
-Route::get('/getFreeClass','HomeController@getFreeClass');
 
 
 Route::get('/', function () {
