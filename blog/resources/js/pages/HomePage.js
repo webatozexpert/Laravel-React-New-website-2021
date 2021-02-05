@@ -6,6 +6,7 @@ import CoursePlan from "../components/coursePlanHome";
 import PaymentGuide from "../components/PaymentGuide";
 import MoreSeries from "../components/moreSeries";
 import Footer from "../components/footer";
+import FreeClassHome from "../components/freeClassHome";
 
 
 class HomePage extends Component {
@@ -17,6 +18,7 @@ class HomePage extends Component {
                 <CourseFeature/>
                 <CoursePlan/>
                 <PaymentGuide/>
+                <FreeClassHome/>
                 <MoreSeries/>
                 <Footer/>
             </Fragment>
